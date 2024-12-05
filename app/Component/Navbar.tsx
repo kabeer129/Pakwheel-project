@@ -14,7 +14,7 @@ className="  w-15 h-9"
 />
 
 </p>
-<div className="flex justify-center  items-center flex-row">
+<div className="flex justify-center  items-center flex-row ">
 
 <p className="text-center  text-white text-sm  px-5 py-5">Used Cars</p>
 <p className="text-center  text-white text-sm px-5 py-5">New Cars</p>
@@ -27,16 +27,16 @@ className="  w-15 h-9"
 
 
 <div className="flex justify-end space-x-4  pr-4">
-  <button className="text-white bg-blue-500 px-2 py-2 rounded-md hover:bg-blue-600 font-extrabold focus:outline-none  focus:ring-2 focus:ring-blue-300">
+  <button className="text-white bg-blue-500 px-2 py-2 rounded-md hover:bg-blue-600 font-extrabold focus:outline-none  focus:ring-2 focus:ring-blue-300 hidden lg:block md:block">
     Sign in
   </button> 
-  <button className="text-white bg-red-700 px-2 py-2 font-extrabold rounded-md hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-red-300">
+  <button className="text-white bg-red-700 px-2 py-2 font-extrabold rounded-md hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-red-300 hidden lg:block md:block">
     Sign up
   </button>
 </div>
 
  
-<button className="text-white px-2 py-2 font-extrabold absolute right-6 bg-red-700 hover:bg-red-800 rounded-lg ">Post An Add
+<button className="text-white px-2 py-2 font-extrabold absolute right-6 bg-red-700 hover:bg-red-800 rounded-lg hidden lg:block md:block ">Post An Add
 </button>
 </div>
 </div>
